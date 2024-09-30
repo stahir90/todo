@@ -29,8 +29,9 @@ Ensure you have **Node.js** and **npm** installed.
 
 #### Frontend
 
-cd frontend
+2. Navigate to the frontend directory:
+   cd frontend
 
-npm install
+   npm install
 
-npm start
+   npm start
