@@ -20,12 +20,17 @@ Ensure you have **Node.js** and **npm** installed.
 1. Navigate to the backend directory:
 
    cd backend
+   
    npm install
+
    npm run build
+
    npm start
 
 #### Frontend
 
 cd frontend
+
 npm install
+
 npm start
