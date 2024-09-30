@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "type": "module",
   "scripts": {
+    "start": "node dist/app.js",
     "build": "tsc",
     "dev": "nodemon --watch src --exec 'npx tsx src/app.ts'"
   },
   "dependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/node": "^22.7.4",
     "aws-sdk": "^2.1691.0",
